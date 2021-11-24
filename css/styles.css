@@ -1,5 +1,5 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f7f7f9;
 }
 
@@ -14,7 +14,7 @@ nav {
 
 .brand {
     font-weight: 700;
-    font-style: normal;   
+    font-style: normal;
 }
 
 .intro {
@@ -26,10 +26,9 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     font-style: normal;
-    border-radius: 0px 0px 0px 23px;
 }
 
-.title{
+.title {
     font-size: 40px;
     font-weight: 900;
     line-height: 52px;
