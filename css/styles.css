@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-    font-family: Poppins;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #F7F7F9;
 }
 nav {
@@ -13,4 +12,38 @@ nav {
 }
 .brand {
     font-weight: 700;    
+}
+.intro {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15% 1.2rem;
+    margin: 0;
+    background-image: url("../images/bg_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: normal;
+    border-radius: 0px 0px 0px 23px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 52px;
+}
+article {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px;
+}
+.connect {
+    color: #6070FF;
+    font-style: normal;
+    font-weight: 300;
+}
+.icons {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 25px;
+    align-content: center;
+    align-items: center;
 }
