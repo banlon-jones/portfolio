@@ -4,53 +4,53 @@ body {
 }
 
 nav {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 2%;
-    color: #6070ff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 2%;
+  color: #6070ff;
 }
 
 .brand {
-    font-weight: 700;
-    font-style: normal;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .intro {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: 15% 1.2rem;
-    margin: 0;
-    background-image: url("../images/bg_mobile.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-style: normal;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15% 1.2rem;
+  margin: 0;
+  background-image: url("../images/bg_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
 }
 
 .title {
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 52px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 52px;
 }
 
 article {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px;
 }
 
 .connect {
-    color: #6070ff;
-    font-style: normal;
-    font-weight: 300;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .icons {
-    display: flex;
-    flex-flow: row nowrap;
-    column-gap: 25px;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 25px;
+  align-content: center;
+  align-items: center;
 }
