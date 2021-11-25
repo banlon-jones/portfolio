@@ -53,7 +53,10 @@ header {
   display: flex;
   flex-flow: row nowrap;
   column-gap: 25px;
-  align-content: center;
   align-items: center;
   list-style: none;
+}
+
+ul {
+  padding: 1px;
 }
