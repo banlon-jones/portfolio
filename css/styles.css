@@ -12,7 +12,7 @@ header {
   color: #6070ff;
 }
 
-.logo{
+.logo {
   font-weight: 700;
   font-style: normal;
   text-decoration: none;
@@ -56,5 +56,4 @@ header {
   align-content: center;
   align-items: center;
   list-style: none;
-  padding: 0px;
 }
