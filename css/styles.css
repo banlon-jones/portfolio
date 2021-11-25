@@ -1,0 +1,62 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f7f7f9;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 2%;
+  color: #6070ff;
+}
+
+.logo {
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.intro {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15% 1.2rem;
+  margin: 0;
+  background-image: url("../images/bg_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 52px;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.connect {
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 25px;
+  align-items: center;
+  list-style: none;
+}
+
+ul {
+  padding: 1px;
+}
