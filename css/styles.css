@@ -184,7 +184,7 @@ ul {
   margin: 44px 0;
   padding: 16px;
   width: 327px;
-  height: 552px;
+  height: auto;
 }
 .works-container {
   display: grid;
