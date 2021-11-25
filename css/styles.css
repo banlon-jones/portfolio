@@ -3,7 +3,7 @@ body {
   background-color: #f7f7f9;
 }
 
-nav {
+header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -12,9 +12,11 @@ nav {
   color: #6070ff;
 }
 
-.brand {
+.logo{
   font-weight: 700;
   font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .intro {
@@ -34,7 +36,7 @@ nav {
   line-height: 52px;
 }
 
-article {
+.headline {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -53,4 +55,6 @@ article {
   column-gap: 25px;
   align-content: center;
   align-items: center;
+  list-style: none;
+  padding: 0px;
 }
