@@ -1,6 +1,7 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f7f7f9;
+  width: 375px;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: baseline;
-  margin: 2%;
+  padding: 2%;
   color: #6070ff;
 }
 
@@ -31,22 +32,29 @@ header {
 }
 
 .title {
-  font-size: 40px;
-  font-weight: 900;
   line-height: 52px;
+}
+
+.title h1 {
+  margin: 8px 0;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .headline {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  padding: 12px;
+  margin: 6px 0;
+  color: #344563;
 }
 
 .connect {
   color: #6070ff;
   font-style: normal;
   font-weight: 300;
+  margin: 12px 0;
+  font-size: 16px;
 }
 
 .icons {
@@ -55,8 +63,221 @@ header {
   column-gap: 25px;
   align-items: center;
   list-style: none;
+  margin: 12px 0;
 }
 
 ul {
   padding: 1px;
+}
+
+.btn {
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 12px 0;
+}
+
+.btn-enable {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
+
+.btn-enable:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.btn-enable:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.disable {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.tags {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+}
+
+.tag {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.tag a {
+  text-decoration: none;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.frame2 {
+  display: flex;
+  gap: 26px;
+  justify-items: start;
+}
+
+.roles {
+  display: flex;
+  justify-items: flex-end;
+  gap: 26px;
+}
+
+.role {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.client {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.card-img {
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 44px 0;
+  padding: 16px;
+  width: 327px;
+  height: auto;
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, auto);
+  justify-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15% 1.2rem 1.2rem 5%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
+}
+
+.about-myself {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, auto);
+  background: #fff;
+  margin: 0;
+  border-radius: 0 96px 0 0;
+  padding: 70px 0;
+}
+
+.skills-list {
+  padding: 4px 12px;
+  list-style: none;
+  margin: 5px 0;
+}
+
+.skill {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #000;
+  margin: 12px 0;
+  padding: 18px 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.dropdown {
+  padding: 2px 0;
+  border: none;
+}
+
+.icon {
+  float: right;
+  width: 12px;
+  padding-top: 8px;
+  height: 12px;
+}
+
+.languages {
+  list-style: none;
+  padding: 24px 0;
+}
+
+.language {
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 12px;
+  display: flex;
+  justify-items: center;
+}
+
+.ellipse-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.lang {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  align-self: center;
+  text-decoration: none;
+  padding: 0 12px;
 }
