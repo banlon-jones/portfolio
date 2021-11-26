@@ -9,7 +9,7 @@ header {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: baseline;
-  margin: 2%;
+  padding: 2%;
   color: #6070ff;
 }
 
@@ -46,6 +46,7 @@ header {
   font-weight: 400;
   line-height: 24px;
   margin: 6px 0;
+  color: #344563;
 }
 
 .connect {
@@ -53,6 +54,7 @@ header {
   font-style: normal;
   font-weight: 300;
   margin: 12px 0;
+  font-size: 16px;
 }
 
 .icons {
@@ -61,6 +63,7 @@ header {
   column-gap: 25px;
   align-items: center;
   list-style: none;
+  margin: 12px 0;
 }
 
 ul {
@@ -77,7 +80,7 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0 10px;
+  margin: 12px 0;
 }
 
 .btn-enable {
@@ -189,7 +192,86 @@ ul {
 .works-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: repeat(4, auto);
   justify-items: center;
   justify-content: center;
+}
+
+.profile {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15% 1.2rem 1.2rem 5%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
+}
+
+.about-myself {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, auto);
+  background: #FFFFFF;
+  margin: 0;
+  border-radius: 0 96px 0 0;
+  padding: 70px 0;
+}
+
+.skills-list {
+  padding: 4px 12px;
+  list-style: none;
+  margin: 5px 0;
+}
+
+.skill {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+  margin: 12px 0;
+
+}
+
+hr {
+  border: 1px solid #DFE1E6
+}
+
+.icon {
+  float: right;
+  Width: 12px;
+  padding-top: 8px;
+  Height: 12px;
+}
+
+.languages {
+  list-style: none;
+  padding: 24px 0;
+}
+
+.language {
+  background: #F7F7F9;
+  border-radius: 8px;
+  margin: 12px 0px;
+  padding: 12px;
+  display: flex;
+  justify-items: center;
+
+}
+
+.ellipse-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.lang {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  align-self: center;
+  text-decoration: none;
+  padding: 0 12px;
 }
