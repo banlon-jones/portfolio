@@ -313,7 +313,7 @@ ul {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 8px 24px;
 }
 
@@ -323,7 +323,7 @@ ul {
 }
 
 .contact-form input {
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
   margin-bottom: 12px;
   height: 48px;
@@ -334,7 +334,7 @@ ul {
   font-weight: 400;
   line-height: 20px;
   color: #172b4d;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 
 .contact-form textarea {
@@ -343,13 +343,13 @@ ul {
   height: 170px;
   width: 327px;
   padding: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 
 .btn-contact {
   text-align: left;
-  color: #6070FF;
-  background: #FFFFFF;
+  color: #6070ff;
+  background: #fff;
   border: none;
   border-radius: 8px;
 }
