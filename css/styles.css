@@ -293,7 +293,6 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
-
 }
 
 .contact-me {
@@ -304,7 +303,6 @@ ul {
   line-height: 52px;
   text-align: center;
   margin: 100px 0 0 0;
-
 }
 
 .contact-info {
@@ -338,7 +336,7 @@ ul {
 }
 
 .contact-form textarea {
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
   height: 170px;
   width: 327px;
