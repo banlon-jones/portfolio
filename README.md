@@ -9,7 +9,7 @@ this is my portfolio website shows information about my professional skills and 
  - CSS
 
 ## Getting started
-
+a
 to run the project locally, clone the project using the command 
 
 `git clone https://github.com/banlon-jones/portfolio.git`
