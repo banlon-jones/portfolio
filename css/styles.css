@@ -351,9 +351,8 @@ ul {
   border: none;
   border-radius: 8px;
 }
-
 @media screen and (min-device-width: 992px) {
-  
+
   .hamburger-btn {
     visibility: hidden;
     display: none;
