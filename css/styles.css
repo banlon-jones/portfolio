@@ -353,10 +353,12 @@ ul {
 }
 
 @media screen and (min-device-width: 992px) {
+  
   .hamburger-btn {
     visibility: hidden;
     display: none;
   }
+
   .menu {
     visibility: visible;
     display: flex;
