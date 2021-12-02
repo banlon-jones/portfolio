@@ -22,6 +22,7 @@ header {
   font-style: normal;
   text-decoration: none;
   font-size: 18px;
+  transition: all 2s;
 }
 
 .intro {
@@ -382,6 +383,10 @@ ul {
   header {
     padding: 1px 6.5rem;
     background-color: #fff;
+  }
+
+  .logo {
+    transform: rotate(245deg) translateX(45px);
   }
 
   .intro {
