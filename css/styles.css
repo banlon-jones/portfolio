@@ -433,6 +433,11 @@ ul {
     height: auto;
     left: 16px;
     top: 16px;
+    transition: all 1s;
+  }
+
+  .card-img:hover {
+    transform: scale(0.9);
   }
 
   .right {
