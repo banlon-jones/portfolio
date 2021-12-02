@@ -22,6 +22,7 @@ header {
   font-style: normal;
   text-decoration: none;
   font-size: 18px;
+  transition: all 2s;
 }
 
 .intro {
@@ -91,6 +92,7 @@ ul {
   background: #fff;
   border: 1px solid #7f8cff;
   color: #6070ff;
+  transition: all 0.3s linear;
 }
 
 .btn-enable:hover {
@@ -383,6 +385,10 @@ ul {
     background-color: #fff;
   }
 
+  .logo {
+    transform: rotate(245deg) translateX(45px);
+  }
+
   .intro {
     background-color: #fff;
     background-image: url("../images/header_bg.png");
@@ -432,6 +438,11 @@ ul {
     height: auto;
     left: 16px;
     top: 16px;
+    transition: all 1s;
+  }
+
+  .card-img:hover {
+    transform: scale(0.9);
   }
 
   .right {
