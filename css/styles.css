@@ -91,6 +91,7 @@ ul {
   background: #fff;
   border: 1px solid #7f8cff;
   color: #6070ff;
+  transition: all 0.3s linear;
 }
 
 .btn-enable:hover {
