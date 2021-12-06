@@ -16,7 +16,7 @@ navigate in to the project directory, from GitHub,
 to test or run the application double click on the `index.html` file to open in your browser
 
 
-### Run test
+### Live Demo
 click on the link below to view the portfolio website online
 
 https://banlon-jones.github.io/portfolio/
