@@ -9,14 +9,17 @@ this is my portfolio website shows information about my professional skills and 
  - CSS
 
 ## Getting started
-a
 to run the project locally, clone the project using the command 
 
 `git clone https://github.com/banlon-jones/portfolio.git`
-
-### Run test
 navigate in to the project directory, from GitHub,
 to test or run the application double click on the `index.html` file to open in your browser
+
+
+### Run test
+click on the link below to view the portfolio website online
+
+https://banlon-jones.github.io/portfolio/
 
 ## Authors
 
