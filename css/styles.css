@@ -12,7 +12,7 @@ header {
   color: #6070ff;
 }
 
-.close-btn{
+.close-btn {
   visibility: hidden;
 }
 
@@ -23,8 +23,6 @@ header {
   width: 12px;
   visibility: visible;
 }
-
-
 
 .container {
   position: fixed;
