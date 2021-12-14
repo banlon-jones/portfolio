@@ -207,8 +207,8 @@ projecBtns.forEach((item) => {
 \t\t\t\t\t\t\t\t\t\t\t<a href="#">javaScript</a>
 \t\t\t\t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t\t\t</ul><br/><br/>
-\t\t\t\t\t\t\t\t\t<a href="${pro.live_version}" class="btn-a btn btn-enable">See live </a>
-\t\t\t\t\t\t\t\t\t<a href="${pro.source}" class="btn-a btn btn-enable"> See Source <img src="images/github.svg" alt="github logo"/> </a>
+\t\t\t\t\t\t\t\t\t<a href="${pro.live_version}" class="btn-a btn btn-enable">See live <img src="images/Icon-Export.svg" alt="github logo"/></a>
+\t\t\t\t\t\t\t\t\t<a href="${pro.source}" class="btn-a btn btn-enable"> See Source <img src="images/github-blue.svg" alt="github logo"/> </a>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>

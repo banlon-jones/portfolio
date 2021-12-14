@@ -422,6 +422,23 @@ ul {
   border-radius: 8px;
 }
 
+.image-card {
+  width: 100%;
+  height: auto;
+}
+
+.clos {
+  float: right;
+  position: relative;
+  bottom: 95px;
+  right: 9px;
+}
+
+.btn-a {
+  text-decoration: none;
+  margin: 5px;
+}
+
 @media screen and (min-device-width: 992px) {
   .hamburger-btn {
     display: none;
@@ -549,7 +566,8 @@ ul {
   }
 
   .image-card {
-    width: 150px;
+    width: 100%;
+    height: auto;
   }
 
   .clos {
