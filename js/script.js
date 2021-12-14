@@ -75,7 +75,7 @@ const projects = [
     role: 'Lead Developer',
     year: '2018',
     employer: 'UBER',
-  }
+  },
 ];
 
 const getProject = (id) => {
@@ -83,7 +83,7 @@ const getProject = (id) => {
     if (item.id === id) {
       return item;
     }
-    return  null;
+  return  null;
   });
   return project;
 };
