@@ -16,7 +16,7 @@ const projects = [
         + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     role: 'Back End Dev',
     year: '2015',
-    employer: 'CANOPY'
+    employer: 'CANOPY',
   },
   {
     id: '2',
@@ -36,7 +36,7 @@ const projects = [
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Full Stack Dev',
     year: '2015',
-    employer: 'FACEBOOK'
+    employer: 'FACEBOOK',
   },
   {
     id: '3',
@@ -45,18 +45,17 @@ const projects = [
     feature_image: 'images/Snapshoot2.png',
     technologies: ['html', 'css', 'javaScript', 'Ruby on rails'],
     details: 'Lorem Ipsum is simply dummy text of the printing and '
-        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
-        + 'text ever since the 1500s, when an unknown printer took a galley of type and '
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy'
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and'
         + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
-        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'
         + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Full Stack Dev',
     year: '2015',
-    employer: 'FACEBOOK'
+    employer: 'FACEBOOK',
   },
   {
     id: '4',
@@ -65,20 +64,18 @@ const projects = [
     feature_image: 'images/Snapshoot.png',
     technologies: ['html', 'css', 'javaScript', 'Ruby on rails'],
     details: 'Lorem Ipsum is simply dummy text of the printing and '
-        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
-        + 'text ever since the 1500s, when an unknown printer took a galley of type and '
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy'
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and'
         + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
-        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'
         + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Lead Developer',
     year: '2018',
-    employer: 'UBER'
+    employer: 'UBER',
   }
-
 ];
 
 const getProject = (id) => {
@@ -86,14 +83,15 @@ const getProject = (id) => {
     if (item.id === id) {
       return item;
     }
-  })
+    return  null;
+  });
   return project;
 };
 
 const hamburgerBtn = document.querySelector('.hamburger-btn');
 const header = document.querySelector('#app-header');
 const menuItems = document.querySelectorAll('.menu-item');
-let modal = document.querySelector('.project-details');
+const modal = document.querySelector('.project-details');
 hamburgerBtn.addEventListener('click', () => {
   header.classList.toggle('container');
   document.querySelector('.close-btn').classList.toggle('close');
@@ -112,7 +110,7 @@ menuItems.forEach((item) => {
   });
 });
 
-projects.forEach((item)=> {
+projects.forEach((item) => {
   document.querySelector('.works-container').innerHTML += `<div class="item">
 \t\t\t\t\t<div class="card">
 \t\t\t\t\t\t<div class="card-body">
@@ -156,8 +154,6 @@ projects.forEach((item)=> {
 });
 
 const projecBtns = document.querySelectorAll('.project-btn');
-
-
 projecBtns.forEach((item) => {
   item.addEventListener('click', () => {
     const pro = getProject(item.getAttribute('value'));
@@ -217,7 +213,7 @@ projecBtns.forEach((item) => {
     const closeButton = document.querySelector('.clos');
     closeButton.addEventListener('click', () => {
       modal.style.visibility = 'hidden';
-      modal.style.display = 'none'
+      modal.style.display = 'none';
     });
   });
 });
