@@ -3,7 +3,7 @@ body {
   background-color: #f7f7f9;
 }
 
-.project-details{
+.project-details {
   height: 100%;
   background-color: rgba(193, 199, 208, 0.92);
   padding: 5%;
@@ -235,6 +235,7 @@ ul {
   line-height: 16px;
   color: #344563;
 }
+
 .item {
   margin: 12px;
 }
@@ -577,7 +578,7 @@ ul {
     right: 9px;
   }
 
-  .btn-close{
+  .btn-close {
     color: #000;
   }
 

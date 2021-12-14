@@ -7,15 +7,13 @@ const projects = [
     technologies: ['html', 'css', 'javaScript'],
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
-    details:
-        'Lorem Ipsum is simply dummy text of the printing and ' +
-        'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy ' +
-        'text ever since the 1500s, when an unknown printer took a galley of type and ' +
-        'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and' +
-        ' typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        ' when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    details: 'Lorem Ipsum is simply dummy text of the printing and '
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy'
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+        + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s'
+        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     role: 'Back End Dev',
     year: '2015',
     employer: 'CANOPY'
@@ -26,15 +24,14 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     feature_image: 'images/Snapshoot1.png',
     technologies: ['html', 'css', 'javaScript', 'Ruby on rails'],
-    details:
-        'Lorem Ipsum is simply dummy text of the printing and ' +
-        'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy ' +
-        'text ever since the 1500s, when an unknown printer took a galley of type and ' +
-        'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and' +
-        ' typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        ' when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    details: 'Lorem Ipsum is simply dummy text of the printing and '
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and '
+        + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
+        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Full Stack Dev',
@@ -47,15 +44,14 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     feature_image: 'images/Snapshoot2.png',
     technologies: ['html', 'css', 'javaScript', 'Ruby on rails'],
-    details:
-        'Lorem Ipsum is simply dummy text of the printing and ' +
-        'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy ' +
-        'text ever since the 1500s, when an unknown printer took a galley of type and ' +
-        'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and' +
-        ' typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        ' when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    details: 'Lorem Ipsum is simply dummy text of the printing and '
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and '
+        + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
+        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Full Stack Dev',
@@ -68,15 +64,14 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     feature_image: 'images/Snapshoot.png',
     technologies: ['html', 'css', 'javaScript', 'Ruby on rails'],
-    details:
-        'Lorem Ipsum is simply dummy text of the printing and ' +
-        'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy ' +
-        'text ever since the 1500s, when an unknown printer took a galley of type and ' +
-        'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and' +
-        ' typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        ' when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    details: 'Lorem Ipsum is simply dummy text of the printing and '
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
+        + 'text ever since the 1500s, when an unknown printer took a galley of type and '
+        + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
+        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
     role: 'Lead Developer',
