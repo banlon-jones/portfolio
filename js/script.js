@@ -167,3 +167,66 @@ projects.forEach((item)=> {
 const projecBtns = document.querySelectorAll('.project-btn');
 
 
+projecBtns.forEach((item) => {
+  item.addEventListener('click', () => {
+    const pro = getProject(item.getAttribute('value'));
+    modal.innerHTML = `
+    <div>
+\t\t\t\t<div class="item">
+\t\t\t\t\t<div class="card">
+\t\t\t\t\t\t<div class="card-b">
+\t\t\t\t\t\t\t<div>
+\t\t\t\t\t\t\t\t<h3 class="card-title">${pro.name}</h3>
+\t\t\t\t\t\t\t\t<div class="frame2">
+\t\t\t\t\t\t\t\t\t<div class="client">
+\t\t\t\t\t\t\t\t\t\t<h3>${pro.employer}</h3>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t<div>
+\t\t\t\t\t\t\t\t\t\t<ul class="roles">
+\t\t\t\t\t\t\t\t\t\t\t<li class="role">${pro.role}</li>
+\t\t\t\t\t\t\t\t\t\t\t<li class="role">${pro.year}</li>
+\t\t\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class="clos">
+\t\t\t\t\t\t\t\t\t<img class="btn-close" src="images/cross-mark.svg">
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class="card-i">
+\t\t\t\t\t\t\t\t<img class="image-card" src="${pro.feature_image}" alt="project one"/>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class="card-in">
+\t\t\t\t\t\t\t\t<div>
+\t\t\t\t\t\t\t\t\t<p class="description">${pro.details}</p>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class="right-col">
+\t\t\t\t\t\t\t\t\t<ul class="tags">
+\t\t\t\t\t\t\t\t\t\t<li class="tag">
+\t\t\t\t\t\t\t\t\t\t\t<a href="#">html</a>
+\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t<li class="tag">
+\t\t\t\t\t\t\t\t\t\t\t<a href="#">css</a>
+\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t<li class="tag">
+\t\t\t\t\t\t\t\t\t\t\t<a href="#">javaScript</a>
+\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t</ul><br/><br/>
+\t\t\t\t\t\t\t\t\t<a href="${pro.live_version}" class="btn-a btn btn-enable">See live </a>
+\t\t\t\t\t\t\t\t\t<a href="${pro.source}" class="btn-a btn btn-enable"> See Source <img src="images/github.svg" alt="github logo"/> </a>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t</div>
+    `;
+    modal.style.visibility = 'visible';
+    modal.style.display = 'block';
+
+    const closeButton = document.querySelector('.clos');
+    closeButton.addEventListener('click', () => {
+      modal.style.visibility = 'hidden';
+      modal.style.display = 'none'
+    });
+  });
+});
