@@ -83,7 +83,7 @@ const getProject = (id) => {
     if (item.id === id) {
       return item;
     }
-  return  null;
+    return null;
   });
   return project;
 };
