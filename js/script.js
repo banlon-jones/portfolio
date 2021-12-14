@@ -12,8 +12,8 @@ const projects = [
         + 'text ever since the 1500s, when an unknown printer took a galley of type and'
         + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
         + 'typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
-        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s'
-        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'
+        + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     role: 'Back End Dev',
     year: '2015',
     employer: 'CANOPY'
@@ -28,9 +28,9 @@ const projects = [
         + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy '
         + 'text ever since the 1500s, when an unknown printer took a galley of type and '
         + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and'
-        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since ' +
-        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s ' +
-        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.' +
+        + 'typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since'
+        + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s'
+        + 'with the releorem Ipsum is simply dummy text of the printing and typesetting industry.'
         + 'when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     live_version: 'https://banlon-jones.github.io/portfolio/',
     source: 'https://github.com/banlon-jones/portfolio.git',
