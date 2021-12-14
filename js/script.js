@@ -122,11 +122,7 @@ projects.forEach((item)=> {
 \t\t\t\t\t<div class="card">
 \t\t\t\t\t\t<div class="card-body">
 \t\t\t\t\t\t\t<div class="card-img">
-\t\t\t\t\t\t\t\t<img
-\t\t\t\t\t\t\t\t\tclass="card-img"
-\t\t\t\t\t\t\t\t\tsrc="${item.feature_image}"
-\t\t\t\t\t\t\t\t\talt="project one"
-\t\t\t\t\t\t\t\t/>
+\t\t\t\t\t\t\t\t<img class="card-img" src="${item.feature_image}" alt="project one"/>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class="card-info">
 \t\t\t\t\t\t\t\t<h3 class="card-title">${item.name}</h3>
