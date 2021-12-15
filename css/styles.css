@@ -5,7 +5,9 @@ body {
 
 .error-mgs {
   color: #fff;
-  padding: 4px;
+  padding: 12px 4px;
+  border-radius: 4px;
+  box-shadow: #dacadc;
   background-color: #ff0905;
   display: none;
 }
