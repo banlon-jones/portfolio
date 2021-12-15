@@ -218,9 +218,8 @@ projecBtns.forEach((item) => {
   });
 });
 
-
 const contactForm = document.getElementById('contact-form');
-const email = contactForm.elements.email;
+const {email} = contactForm.elements;
 const regex = /[A-Z]/g;
 const errorMgs = document.querySelector('.error-mgs');
 
@@ -232,6 +231,6 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value.match(regex).length !== 0) {
     e.preventDefault();
     errorMgs.style.display = 'block';
-	errorMgs.innerHTML = 'Invalid email: email should be lower case';
+    errorMgs.innerHTML = 'Invalid email: email should be lower case';
   }
 });
