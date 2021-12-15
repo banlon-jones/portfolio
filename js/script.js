@@ -1,99 +1,89 @@
 const projects = [
-	{
-		id: "1",
-		name: "Tonic",
-		description:
-			"A daily selection of privately personalized reads; no accounts or sign-ups required.",
-		feature_image: "images/Snapshoot.png",
-		technologies: ["html", "css", "javaScript"],
-		live_version: "https://banlon-jones.github.io/portfolio/",
-		source: "https://github.com/banlon-jones/portfolio.git",
-		details:
-			"Lorem Ipsum is simply dummy text of the printing and " +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy" +
-			"text ever since the 1500s, when an unknown printer took a galley of type and" +
-			"scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and" +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since" +
-			"the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry." +
-			"when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-		role: "Back End Dev",
-		year: "2015",
-		employer: "CANOPY",
-	},
-	{
-		id: "2",
-		name: "Multi-Post Stories",
-		description:
-			"A daily selection of privately personalized reads; no accounts or sign-ups required.",
-		feature_image: "images/Snapshoot1.png",
-		technologies: ["html", "css", "javaScript", "Ruby on rails"],
-		details:
-			"Lorem Ipsum is simply dummy text of the printing and " +
-			"typesetting industry. Lorem Ipsum has been the industry's standard dummy " +
-			"text ever since the 1500s, when an unknown printer took a galley of type and " +
-			"scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and" +
-			"typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since" +
-			"the 1500s, when an unknown printer took a galley of type and scrambled it 1960s" +
-			"with the releorem Ipsum is simply dummy text of the printing and typesetting industry." +
-			"when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-		live_version: "https://banlon-jones.github.io/portfolio/",
-		source: "https://github.com/banlon-jones/portfolio.git",
-		role: "Full Stack Dev",
-		year: "2015",
-		employer: "FACEBOOK",
-	},
-	{
-		id: "3",
-		name: "Facebook 360",
-		description:
-			"A daily selection of privately personalized reads; no accounts or sign-ups required.",
-		feature_image: "images/Snapshoot2.png",
-		technologies: ["html", "css", "javaScript", "Ruby on rails"],
-		details:
-			"Lorem Ipsum is simply dummy text of the printing and " +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy" +
-			"text ever since the 1500s, when an unknown printer took a galley of type and" +
-			"scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and" +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since" +
-			"the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry." +
-			"when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-		live_version: "https://banlon-jones.github.io/portfolio/",
-		source: "https://github.com/banlon-jones/portfolio.git",
-		role: "Full Stack Dev",
-		year: "2015",
-		employer: "FACEBOOK",
-	},
-	{
-		id: "4",
-		name: "Uber Navigation",
-		description:
-			"A daily selection of privately personalized reads; no accounts or sign-ups required.",
-		feature_image: "images/Snapshoot.png",
-		technologies: ["html", "css", "javaScript", "Ruby on rails"],
-		details:
-			"Lorem Ipsum is simply dummy text of the printing and " +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy" +
-			"text ever since the 1500s, when an unknown printer took a galley of type and" +
-			"scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and" +
-			"typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since" +
-			"the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry." +
-			"when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-		live_version: "https://banlon-jones.github.io/portfolio/",
-		source: "https://github.com/banlon-jones/portfolio.git",
-		role: "Lead Developer",
-		year: "2018",
-		employer: "UBER",
-	},
+  {
+    id: "1",
+	name: "Tonic",
+	description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    feature_image: "images/Snapshoot.png",
+	technologies: ["html", "css", "javaScript"],
+	live_version: "https://banlon-jones.github.io/portfolio/",
+	source: "https://github.com/banlon-jones/portfolio.git",
+	details: "Lorem Ipsum is simply dummy text of the printing and "
+	  + "typesetting industry. Lorem Ipsum has been the industry standard dummy"
+      + "text ever since the 1500s, when an unknown printer took a galley of type and"
+	  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and"
+	  + "typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since"
+	  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry."
+	  + "when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+	role: "Back End Dev",
+	year: "2015",
+	employer: "CANOPY",
+  },
+  {
+    id: "2",
+	name: "Multi-Post Stories",
+	description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    feature_image: "images/Snapshoot1.png",
+    technologies: ["html", "css", "javaScript", "Ruby on rails"],
+    details: "Lorem Ipsum is simply dummy text of the printing and "
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy"
+      + "text ever since the 1500s, when an unknown printer took a galley of type and"
+      + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and"
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since"
+      + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry."
+      + "when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    live_version: "https://banlon-jones.github.io/portfolio/",
+	source: "https://github.com/banlon-jones/portfolio.git",
+	role: "Full Stack Dev",
+	year: "2015",
+	employer: "FACEBOOK",
+  },
+  {
+    id: "3",
+    name: "Facebook 360",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    feature_image: "images/Snapshoot2.png",
+    technologies: ["html", "css", "javaScript", "Ruby on rails"],
+    details: "Lorem Ipsum is simply dummy text of the printing and "
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy"
+      + "text ever since the 1500s, when an unknown printer took a galley of type and"
+      + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and"
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since"
+      + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry."
+      + "when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    live_version: "https://banlon-jones.github.io/portfolio/",
+	source: "https://github.com/banlon-jones/portfolio.git",
+	role: "Full Stack Dev",
+	year: "2015",
+    employer: "FACEBOOK",
+  },
+  {
+    id: "4",
+	name: "Uber Navigation",
+	description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    feature_image: "images/Snapshoot.png",
+	technologies: ["html", "css", "javaScript", "Ruby on rails"],
+    details: "Lorem Ipsum is simply dummy text of the printing and "
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy"
+      + "text ever since the 1500s, when an unknown printer took a galley of type and"
+      + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and"
+      + "typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since"
+      + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry."
+      + "when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+	live_version: "https://banlon-jones.github.io/portfolio/",
+	source: "https://github.com/banlon-jones/portfolio.git",
+	role: "Lead Developer",
+	year: "2018",
+	employer: "UBER",
+  },
 ];
 
 const getProject = (id) => {
-	const [project] = projects.filter((item) => {
-		if (item.id === id) {
-			return item;
-		}
-		return null;
-	});
-	return project;
+  const [project] = projects.filter((item) => {
+    if (item.id === id) {
+      return item;
+    }
+  });
+  return project;
 };
 
 const hamburgerBtn = document.querySelector(".hamburger-btn");
@@ -101,25 +91,25 @@ const header = document.querySelector("#app-header");
 const menuItems = document.querySelectorAll(".menu-item");
 const modal = document.querySelector(".project-details");
 hamburgerBtn.addEventListener("click", () => {
-	header.classList.toggle("container");
-	document.querySelector(".close-btn").classList.toggle("close");
-	document.querySelector(".logo").style.visibility = "hidden";
-	document.querySelector(".menu").classList.toggle("menu-a");
-	menuItems.forEach((item) => item.classList.toggle("menu-item-a"));
+  header.classList.toggle("container");
+  document.querySelector(".close-btn").classList.toggle("close");
+  document.querySelector(".logo").style.visibility = "hidden";
+  document.querySelector(".menu").classList.toggle("menu-a");
+  menuItems.forEach((item) => item.classList.toggle("menu-item-a"));
 });
 
 menuItems.forEach((item) => {
-	item.addEventListener("click", () => {
-		header.classList.toggle("container");
-		document.querySelector(".close-btn").classList.remove("close");
-		document.querySelector(".logo").style.visibility = "visible";
-		document.querySelector(".menu").classList.remove("menu-a");
-		menuItems.forEach((item) => item.classList.remove("menu-item-a"));
+  item.addEventListener("click", () => {
+    header.classList.toggle("container");
+    document.querySelector(".close-btn").classList.remove("close");
+    document.querySelector(".logo").style.visibility = "visible";
+    document.querySelector(".menu").classList.remove("menu-a");
+    menuItems.forEach((item) => item.classList.remove("menu-item-a"));
 	});
 });
 
 projects.forEach((item) => {
-	document.querySelector(".works-container").innerHTML += `<div class="item">
+  document.querySelector(".works-container").innerHTML += `<div class="item">
 \t\t\t\t\t<div class="card">
 \t\t\t\t\t\t<div class="card-body">
 \t\t\t\t\t\t\t<div class="card-img">
@@ -163,10 +153,9 @@ projects.forEach((item) => {
 
 const projecBtns = document.querySelectorAll(".project-btn");
 projecBtns.forEach((item) => {
-	item.addEventListener("click", () => {
-		const pro = getProject(item.getAttribute("value"));
-		modal.innerHTML = `
-    <div>
+  item.addEventListener("click", () => {
+    const pro = getProject(item.getAttribute("value"));
+    modal.innerHTML = `<div>
 \t\t\t\t<div class="item">
 \t\t\t\t\t<div class="card">
 \t\t\t\t\t\t<div class="card-b">
@@ -213,16 +202,15 @@ projecBtns.forEach((item) => {
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
-\t\t\t</div>
-    `;
-		modal.style.visibility = "visible";
-		modal.style.display = "block";
+\t\t\t</div>`;
+    modal.style.visibility = "visible";
+	modal.style.display = "block";
 
-		const closeButton = document.querySelector(".clos");
-		closeButton.addEventListener("click", () => {
-			modal.style.visibility = "hidden";
-			modal.style.display = "none";
-		});
+	const closeButton = document.querySelector(".clos");
+	  closeButton.addEventListener("click", () => {
+		modal.style.visibility = "hidden";
+		modal.style.display = "none";
+	  });
 	});
 });
 
@@ -232,13 +220,13 @@ const regex = /[A-Z]/g;
 const errorMgs = document.querySelector(".error-mgs");
 
 email.addEventListener("click", () => {
-	errorMgs.style.display = "none";
+  errorMgs.style.display = "none";
 });
 
 contactForm.addEventListener("submit", (e) => {
-	if (email.value.match(regex).length !== 0) {
-		e.preventDefault();
-		errorMgs.style.display = "block";
-		errorMgs.innerHTML = "Invalid email: email should be lower case";
-	}
+  if (email.value.match(regex).length !== 0) {
+    e.preventDefault();
+    errorMgs.style.display = "block";
+	errorMgs.innerHTML = "Invalid email: email should be lower case";
+  }
 });
