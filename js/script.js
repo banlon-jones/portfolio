@@ -217,3 +217,14 @@ projecBtns.forEach((item) => {
     });
   });
 });
+
+const contactForm = document.getElementById('contact-form');
+const email = contactForm.elements['email'];
+const regex = /[A-Z]/g;
+const errorMgs = document.querySelector('.error-mgs');
+
+email.addEventListener('click', () => {
+  errorMgs.style.display = 'none';
+});
+
+

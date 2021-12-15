@@ -3,6 +3,13 @@ body {
   background-color: #f7f7f9;
 }
 
+.error-mgs {
+  color: #fff;
+  padding: 4px;
+  background-color: #ff0905;
+  display: none;
+}
+
 .project-details {
   height: 100%;
   background-color: rgba(193, 199, 208, 0.92);
