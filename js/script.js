@@ -219,7 +219,7 @@ projecBtns.forEach((item) => {
 });
 
 const contactForm = document.getElementById('contact-form');
-const {email} = contactForm.elements;
+const { email } = contactForm.elements;
 const regex = /[A-Z]/g;
 const errorMgs = document.querySelector('.error-mgs');
 
